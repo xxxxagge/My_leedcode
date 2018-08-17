@@ -11,8 +11,10 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
+        if not nums:
+        	return 0
         count = maxsum = nums[0]
-        for i in nums:
+        for i in nums[1:]:
         	count = max(i,i+count)
         	maxsum = max(maxsum,count)
         return maxsum
