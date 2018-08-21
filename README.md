@@ -1,2 +1,2 @@
-# My_leedcode
-Record the code from leedcode
+# My_leetcode
+Record the code from leetcode
